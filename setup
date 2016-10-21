@@ -1,0 +1,13 @@
+used virtualenv to control verisioins of python
+
+source IP/bin/activate
+deactivate
+ipython notebook
+control + c quit
+
+installed scipy with pip not with macports which needs to install xcode 4G
+
+installed python3 and use pip3 to install packages needed with NLP
+
+anaconda is an env for data scicent and also has virtualenv feature
+if you use zsh in terminal you need to add path to user config in .zshrc

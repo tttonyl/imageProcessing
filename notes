@@ -1,0 +1,42 @@
+matpltlib has the subplot
+
+np.array(0,5).reshape
+
+can use vector multiply to complish a matrix in as2
+
+################# 09/12 ######################
+
+rescale = resampling not allowed
+
+
+gray scale chart band of 8 or 16
+create two matrix ??
+
+
+od -Ax img | more
+
+first bits specify what file it is and then know how to read the header + axcii code
+
+txtis just axsii code
+
+###### 09/26  #######
+
+
+###### 10/05  #######
+# raccon image from face()
+color.rgb2gray()
+img_ubyte = util.img_as_ubyte(img)
+plt.imshow(img, cmap = plt.cm.gray,vmax = 255,vmin = 0 )
+
+# high frequncey image
+
+avg3x3 = np.ones((3,3))/9.0
+import scipy.ndimage as ndi
+
+img_avg3x3= ndi.convolve(img_ubyte, avg3x3)
+plt.figure(2)
+plt.imshow(img_avg3x3, cmap = plt.cm.gray,vmax = 255,vmin = 0 )
+
+avg_11x11 = np.ones((11,11))/121.0
+plt.figure(3)
+plt.imshow(ndi.convolve(img_ubtye, avg_11x11), cmap = plt.cm.gray, vmax,vin)
